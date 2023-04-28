@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"baseUrl": "."
+
+		// custom module aliases example
+		// "paths": {
+		//   "@/components/*": ["components/*"],
+		//   "@/data/*": ["data/*"],
+		//   "@/layouts/*": ["layouts/*"],
+		//   "@/lib/*": ["lib/*"],
+		//   "@/styles/*": ["styles/*"],
+		//   "@/src/*": ["src/*"]
+		// }
+	}
+}

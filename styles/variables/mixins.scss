@@ -1,0 +1,44 @@
+// @mixin margin-center
+//   margin-left: auto
+//   margin-right: auto
+
+// @mixin flex-center($direction: row)
+//   display: flex
+//   justify-content: center
+//   align-items: center
+//   flex-direction: $direction
+
+// @mixin absolute-center
+//   position: absolute
+//   top: 50%
+//   left: 50%
+//   transform: translate(-50%, -50%)
+
+// @mixin background-center($size: cover)
+//   background-position: center
+//   background-size: $size
+//   background-repeat: no-repeat
+
+// @mixin lineclamp($clampSize)
+//   @if $clampSize > 1
+//     display: -webkit-box
+//     -webkit-box-orient: vertical
+//     -webkit-line-clamp: $clampSize
+//     overflow: hidden
+//   @else
+//     text-overflow: ellipsis
+//     white-space: nowrap
+//     overflow: hidden
+
+// @mixin transition($style, $time: 0.25s, $animationType: $animation-default)
+//   will-change: $style
+//   transition: $style $time $animationType
+
+// @mixin accordionClose
+//   @include transition(max-height, 0.3s, ease-in)
+//   max-height: 100vh
+
+// @mixin accordionOpen
+//   @include transition(max-height, 0.2s, ease-out)
+//   max-height: 0
+//   overflow: hidden
